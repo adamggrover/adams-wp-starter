@@ -2,9 +2,9 @@
 
 function adams_wp_starter_register_styles(){
 
-$version = wp_get_theme() ->get ('Version');
+    $version = wp_get_theme() ->get ('Version');
 
-wp_enqueue_style('adams_wp_starter', get_template_directory_uri().'/dist/index.css', array(), $version);
+    wp_enqueue_style('adams_wp_starter', get_template_directory_uri().'/dist/index.css', array(), $version);
 }
 
 add_action('wp_enqueue_scripts', 'adams_wp_starter_register_styles');
@@ -14,7 +14,23 @@ add_action('wp_enqueue_scripts', 'adams_wp_starter_register_styles');
 
 function adams_wp_starter_register_scripts(){
 
-wp_enqueue_script('adams_wp_starter-main', get_template_directory_uri().'/dist/js/index.js', array(), $version, true);
+    $version = wp_get_theme() ->get ('Version');
+
+    wp_enqueue_script('adams_wp_starter-main', get_template_directory_uri().'/dist/index.js', array(), $version, true);
+
+
+    // add_filter( 'wp_script_attributes', 'add_type_attribute', 10, 1 );
+
+    // function add_type_attribute( $attributes ) {
+    // // Only do this for a specific script.
+    // if ( isset( $attributes['id'] ) && $attributes['id'] === 'adams_wp_starter-main-js' ) {
+    //     $attributes['type'] = 'module';
+    // }
+
+    // return $attributes;
+    // }
 }
 
 add_action('wp_enqueue_scripts', 'adams_wp_starter_register_scripts');
+
+
