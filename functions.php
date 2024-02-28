@@ -18,19 +18,18 @@ function adams_wp_starter_register_scripts(){
 
     wp_enqueue_script('adams_wp_starter-main', get_template_directory_uri().'/dist/index.js', array(), $version, true);
 
-
-    // add_filter( 'wp_script_attributes', 'add_type_attribute', 10, 1 );
-
-    // function add_type_attribute( $attributes ) {
-    // // Only do this for a specific script.
-    // if ( isset( $attributes['id'] ) && $attributes['id'] === 'adams_wp_starter-main-js' ) {
-    //     $attributes['type'] = 'module';
-    // }
-
-    // return $attributes;
-    // }
 }
 
 add_action('wp_enqueue_scripts', 'adams_wp_starter_register_scripts');
+
+// Theme Support
+
+function adams_wp_starter_theme_support(){
+
+    add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme', 'adams_wp_starter_theme_support');
 
 
