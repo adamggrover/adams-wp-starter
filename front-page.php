@@ -6,8 +6,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <h1 class="text-2xl font-bold my-3 bg-slate-900"><?php bloginfo( 'name' ); ?></h1>
-    <div class="bg-></div>
+    <h1 class="text-6xl font-bold my-3"><?php bloginfo( 'name' ); ?></h1>
     
     <h2><?php bloginfo( 'description' ); ?></h2>
     
