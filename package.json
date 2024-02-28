@@ -1,0 +1,17 @@
+{
+  "name": "adams-wp-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -r dist/",
+    "start": "parcel watch src/index.js",
+    "build": "parcel build src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+  
+}
