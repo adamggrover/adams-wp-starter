@@ -3,3 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+.header-right nav ul{
+    @apply flex gap-6
+}
+
+.header-right nav ul.sub-menu{
+    @apply flex flex-col  mt-1 gap-1 
+}
+

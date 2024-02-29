@@ -1,3 +1,9 @@
 import '/src/css/main.css';
 
-console.log('Parcel is Working!');
+//Alpine Js
+
+import Alpine from 'alpinejs'
+ 
+window.Alpine = Alpine
+ 
+Alpine.start()

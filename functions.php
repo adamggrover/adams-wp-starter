@@ -32,4 +32,17 @@ function adams_wp_starter_theme_support(){
 
 add_action('after_setup_theme', 'adams_wp_starter_theme_support');
 
+//Add Menu Locations
+
+function adams_wp_starter_menus(){
+
+    $locations = array(
+        'header' => 'Header',     
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'adams_wp_starter_menus');
+
 
