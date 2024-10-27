@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"R7ls6":[function(require,module,exports) {
+})({"dqB5G":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "ba60c367739bf03c";
+module.bundle.HMR_BUNDLE_ID = "9559a66ea5535e9f";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -578,16 +578,16 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"ebWYT":[function(require,module,exports) {
+},{}],"1E7ZB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _mainCss = require("/src/css/main.css");
+var _mainCss = require("/assets/css/main.css");
 //Alpine Js
 var _alpinejs = require("alpinejs");
 var _alpinejsDefault = parcelHelpers.interopDefault(_alpinejs);
 window.Alpine = (0, _alpinejsDefault.default);
 (0, _alpinejsDefault.default).start();
 
-},{"/src/css/main.css":"7E1TK","alpinejs":"69hXP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7E1TK":[function() {},{}],"69hXP":[function(require,module,exports) {
+},{"/assets/css/main.css":"gdeW1","alpinejs":"69hXP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gdeW1":[function() {},{}],"69hXP":[function(require,module,exports) {
 // packages/alpinejs/src/scheduler.js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -3564,6 +3564,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["R7ls6","ebWYT"], "ebWYT", "parcelRequire9517")
+},{}]},["dqB5G","1E7ZB"], "1E7ZB", "parcelRequire9517")
 
 //# sourceMappingURL=index.js.map
