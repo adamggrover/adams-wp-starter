@@ -4,8 +4,6 @@
 @tailwind utilities;
 
 
-
-
 .header-right nav ul{
     @apply flex gap-6
 }

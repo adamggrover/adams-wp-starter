@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "clean": "rm -r dist/",
-    "start": "parcel watch assets/js/index.js",
-    "build": "parcel build assets/js/index.js"
+    "start": "parcel watch src/js/index.js",
+    "build": "parcel build src/js/index.js"
   },
   "keywords": [],
   "author": "",
