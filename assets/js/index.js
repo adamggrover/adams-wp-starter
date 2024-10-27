@@ -1,4 +1,4 @@
-import '/src/css/main.css';
+import '/assets/css/main.css';
 
 //Alpine Js
 
